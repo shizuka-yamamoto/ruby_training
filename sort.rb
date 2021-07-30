@@ -1,8 +1,5 @@
-2.times do 
-  puts "カフェラテ"
-  2.times do
-    puts "モカ"
-  end
+sum = 0
+[1, 2, 3].each do |num|
+  sum += num
 end
-puts "フラペチーノ"
-
+puts sum
